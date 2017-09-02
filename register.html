@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/register.css" />
+		<link rel="stylesheet" href="css/demo.css" />
+		<link rel="stylesheet" href="css/validform.css" />
+		<link rel="stylesheet" href="css/jquery.idcode.css" />
+		
+		<script type="text/javascript" src="js/jquery-1.6.2.min.js" ></script>
+		<script type="text/javascript" src="js/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="js/Validform_v4.0_min.js" ></script>
+		<script type="text/javascript" src="js/register.js" ></script>
+		<script type="text/javascript" src="js/jquery.idcode.js" ></script>
+	</head>
+	<body>
+		<!--头部-->
+		<div id="header">
+			<div class="logo">
+				<a href="#"><img src="img/register/logo_e.png"/></a>
+			</div>
+			<ul class="header-tool">
+				<li class="tool-li2">
+					Hi~
+					<a href="login.html">[请登录]</a>
+					<a href="register.html">[免费注册]</a>
+				</li>
+				<li class="tool-li">
+					<a href="#">MY有货</a>
+					<div class="tool-a">
+						<a href="#">我的收藏</a>
+						<a href="#" style="border: none;">优惠券</a>
+					</div>
+					
+				</li>
+				<li><a href="#">订单中心</a></li>
+				<li><a href="#">帮助中心</a></li>
+			</ul>
+			
+		</div>
+		
+		<!--中间内容-->
+		<div id="wrap-centent">
+			<div id="centent">
+				<div class="passport">
+					<a href="#"><img src="img/register/registerlogo2.jpg" style="margin: 120px 83px;"/></a>
+				</div>
+				
+<div class="register-page">
+	
+	<form class="registerform">
+        <table width="100%" style="table-layout:fixed;">
+            <tr>
+                <td class="need" style="width:10px;">*</td>
+                <td style="width:70px;">用户名：</td>
+                <td style="width:205px;">
+                	<!--  datatype="s6-18" :  验证的规则(这里表示为:6-18位字符) -->
+                	<input type="text" class="inputxt"  datatype="s6-18" errormsg="用户名至少6个字符,最多18个字符！" id="username"/>
+                </td>
+                <td>
+                	<!--  提示文字 -->
+                	<div class="Validform_checktip">用户名至少6个字符,最多18个字符</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="need">*</td>
+                <td>密码：</td>
+                <td><input type="password"  name="userpassword" class="inputxt" datatype="*6-16" nullmsg="请设置密码！" errormsg="密码范围在6~16位之间！" id="pwd"/></td>
+                <td><div class="Validform_checktip">密码范围在6~16位之间</div></td>
+            </tr>
+            <tr>
+                <td class="need">*</td>
+                <td>确认密码：</td>
+                <td><input id="repwd" type="password" name="userpassword2" class="inputxt" datatype="*" recheck="userpassword" nullmsg="请再输入一次密码！" errormsg="您两次输入的账号密码不一致！" /></td>
+                <td><div class="Validform_checktip">两次输入密码需一致</div></td>
+            </tr>
+            
+           <!-- <tr>
+            	<td><input type="text" id ="Txtidcode" class ="txtVerification"><span id="idcode"></span></td>
+            	<td><p class="success" style="display:none">验证通过</p></td>
+            	<td><p class="false" style="display:none">验证失败,请重新输入</p></td>
+            </tr>
+            
+            
+            <tr>
+                <td class="need"></td>
+                <td></td>
+                <td colspan="2" style="padding:10px 0 18px 0;">
+                    <input type="submit" value="立即注册" /> <input type="reset" value="重 置" />
+                </td>
+            </tr>-->
+        </table>
+    </form>
+	
+	<div class="yzm">
+		<td><input type="text" id ="Txtidcode" class ="txtVerification"><span id="idcode"></span></td>
+    	<td><p class="success" style="display:none">验证通过</p></td>
+    	<td><p class="false" style="display:none">验证失败,请重新输入</p></td>
+	</div>
+	
+	<input type="checkbox" id="xy" checked="checked"/>我已阅读并同意遵守
+	<a href="#" class="atk">YOHO!BUY 有货服务条款</a>
+	
+	<br />
+	<button id="btn"><a href="#" style="color: #fff;">立即注册</a></button>
+	<p class="pzh">我已注册YOHO!BUY 有货账号 <a href="#" class="atk">快速登录</a></p>
+</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		<iframe MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no
+			src="footer.html" height=296 width=100%></iframe>
+	</body>
+</html>

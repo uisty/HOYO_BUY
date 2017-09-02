@@ -1,0 +1,54 @@
+[
+	
+		{
+			"ID" : "1",
+			"topImg" : "img/Description/dTop.jpg",
+			"title1" : "上衣",
+			"title2" : "棉衣",
+			"title3" : "Eight Guys 经典黑色迷彩棉衣",
+			"bigTitle" : "Eight Guys 经典黑色迷彩棉衣",
+			"id" : "Eight Guys",
+			"oldPrice" : "￥799",
+			"newPrice" : "399",
+			"centerImg" : "img/Description/zz.jpg",
+			"bigImg1" : "img/Description/bigImg01.jpg",
+			"bigImg2" : "img/Description/bigImg02.jpg",
+			"bigImg4" : "img/Description/bigImg03.jpg",
+			"bigImg3" : "img/Description/bigImg04.jpg",
+			"smallImg1" : "img/Description/img01.jpg",
+			"smallImg2" : "img/Description/img02.jpg",
+			"smallImg3" : "img/Description/img03.jpg",
+			"smallImg4" : "img/Description/img04.jpg"
+			
+			
+		}
+	
+	,
+	
+		{
+			"ID" : "2",
+			"topImg" : "img/Description/dTop.jpg",
+			"title1" : "上衣",
+			"title2" : "羽绒服",
+			"title3" : "viishow 深灰色欧美时尚纯色羽绒服",
+			"bigTitle" : "viishow 深灰色欧美时尚纯色羽绒服",
+			"id" : "viishow",
+			"oldPrice" : "¥1108.00",
+			"newPrice" : "298.00",
+			"centerImg" : "img/Description/zz.jpg",
+			"bigImg1" : "img/Description/viishowBig1.jpg",
+			"bigImg2" : "img/Description/viishowBig2.jpg",
+			"bigImg4" : "img/Description/viishowBig3.jpg",
+			"bigImg3" : "img/Description/viishowBig4.jpg",
+			"smallImg1" : "img/Description/viishowSmall1.jpg",
+			"smallImg2" : "img/Description/viishowSmall2.jpg",
+			"smallImg3" : "img/Description/viishowSmall3.jpg",
+			"smallImg4" : "img/Description/viishowSmall4.jpg"
+			
+			
+		}
+	
+	
+	
+	
+]

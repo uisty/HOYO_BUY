@@ -1,0 +1,42 @@
+html,body{margin: 0; height: 100%;}
+#left,#right{position: absolute;top: 0; width: 0px; height: 100%;}
+#left{left: 0; background: red;}
+#right {right: 0; background: red;}
+#main { margin: 0 0px; height: 100%;}
+
+
+#wrap-footer { height: 296px; width: 100%; background: #000;}
+#footer { height: 296px; width: 1151px;  margin: 0 auto;}
+.footerTop {height: 65px; width: 100%;}
+
+.footerTop-left {height: 100%; width: 550px; float: left;}
+.footerTop-left ul li { float: left; line-height: 65px; width: 120px; padding-left: 34px; font-weight: bold;
+	color: white;}
+.footerTop-left ul li a { color: white;}
+.footerTop-left ul li span {color: #ee0003;}
+.footer-li1 {background: url(../img/footer/li-1.jpg) left 0 top 18px no-repeat;}
+.footer-li2 {background: url(../img/footer/li-2.jpg) left 0 top 20px no-repeat;}
+.footer-li3 {background: url(../img/footer/li-3.jpg) left 0 top 22px no-repeat;}
+
+.footerTop-right { height: 36px; width: 240px; float: right;margin-top: 20px;
+	border: 1px solid #262626;}
+.footerTop-right input { border: none;color: #888;background: #000;opacity: 0.5;}
+.footer-input1 { width: 160px;height: 24px; margin-top: 6px; margin-left: 12px;}
+.footerTop-right .footer-input2 {width: 18px; height 13px ; margin: 7px 21px 0 0;
+background: url(../img/footer/emeil.jpg) left 0 top 0 no-repeat; float: right; cursor: pointer;}
+
+.footerCenter {height: 136px; width: 100%;}
+.footerCenter ul.footerUl { width: 178px; height: 121px; float: left; padding-top: 15px;}
+.footerCenter ul.lastUl { width: 78px; height: 136px; float: right;}
+ul.footerUl li { line-height: 24px; color: white;}
+ul.footerUl li a { color: #636365;}
+.footerBottom {height: 95px; width: 100%;}
+.footerBottom-left { height: 50px; width: 220px; float: left; padding-top: 28px;}
+.footerBottom-li { padding-right: 8px; cursor:pointer;}
+.footerBottom-right { height: 40px; width: 800px;  padding-top: 28px;}
+
+ul.footerBottom-ul { height: 12px;}
+ul.footerBottom-ul li{ float: left; height: 12px; line-height: 12px;
+	}
+ul.footerBottom-ul li a {padding: 0 14px; color: #707175;}
+.footerBottom-right p { height: 28px; line-height: 28px; color: #707175; padding-left: 14px;}

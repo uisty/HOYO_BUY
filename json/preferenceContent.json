@@ -1,0 +1,38 @@
+[
+	{
+		"img": "img/content/preference1.jpg",
+		"id": 1
+	},
+	{
+		"img": "img/content/preference2.jpg",
+		"id": 2
+	},
+	{
+		"img": "img/content/preference3.jpg",
+		"id": 3
+	},
+	{
+		"img": "img/content/preference4.jpg",
+		"id": 4
+	},
+	{
+		"img": "img/content/preference5.jpg",
+		"id": 5
+	},
+	{
+		"img": "img/content/preference6.jpg",
+		"id": 6
+	},
+	{
+		"img": "img/content/preference7.jpg",
+		"id": 7
+	},
+	{
+		"img": "img/content/preference8.jpg",
+		"id": 8
+	},
+	{
+		"img": "img/content/preference9.jpg",
+		"id": 9
+	}
+]

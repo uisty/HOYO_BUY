@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			#left,#right { height: 100%; width: 0px; position: absolute; left: 0px; right: 0px;}
+			#left { float: left; background: red;}
+			#left { float: right; background: red;}
+			#main { margin: 0 0; height: 100%;}
+		</style>
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		
+		
+		<script type="text/javascript" src="js/jquery-1.12.3.js" ></script>
+		<script type="text/javascript" src="js/head.js" ></script>
+		
+		<script type="text/javascript" src="js/main.js" ></script>
+		<script type="text/javascript" src="js/prefer.js" ></script>
+		<script type="text/javascript" src="js/login.js" ></script>
+	</head>
+	<body>
+		<div id="left"></div>
+		<div id="right"></div>
+		<div id="main">
+			<div id="wrap-header">
+			<div id="wrap-headerTop">
+				<div id="headerTop">
+					<div class="headerTop-left left">
+						<a href="#" class="a1">YOHO!BUY 有货</a>
+						<ul class="headerTop-list">
+							<li><a href="#"><b>YOHO!</b><span>集团官网</span></a></li>
+							<li><a href="#"><b>YOHO!BOYS</b><span>男生潮流</span></a></li>
+							<li><a href="#"><b>YOHO!GIRLS</b><span>女生潮流</span></a></li>
+							<li><a href="#"><b>YOHO!SHOW</b><span>物趣分享</span></a></li>
+							<li><a href="#"><b>YO'HOOD</b><span>潮流嘉年华</span></a></li>
+						</ul>	
+					</div>
+					<div class="headerTop-right right">
+						<ul class="headerTop-list1">
+							<li id="login-register">Hi~[<a href="login.html" class="login">请登陆</a>][<a href="register.html" class="register">免费注册</a>]</li>
+							<li class="MY"><a href="#">MY有货</a></li>
+							<li class="orders"><a href="#">我的订单</a></li>
+							<li class="keep"><a href="#">我的收藏</a></li>
+							<li class="news"><a href="#">消息</a></li>
+							<li class="phone">
+								<a href="#">手机版</a>
+								<div class="two-bar-codes">
+									<div class="twoCode"></div>
+									<p class="twoCode-p">扫描二维码</p>
+									<p class="twoCode-p">下载有货手机客户端</p>
+									<a href="#" class="a2">更多客户端下载</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="wrap-headerCenter">
+				<div id="headerCenter">
+					<div class="headerCenter-left left">
+						<ul class="headerCenter-left-list">
+							<li class="boys"><a href="#" class="a3">男生</a><a href="#">BOYS</a></li>
+							<!--class="girls"-->
+							<li><a href="#" class="a3">女生</a><a href="#">GIRLS</a></li>
+							 <!--class="kids"-->
+							<li><a href="#" class="a3">潮童</a><a href="#">KIDS</a></li>
+							 <!--class="kids"-->
+							<li id="oLeft"><a href="#" class="a3">创意生活</a><a href="#">LIFE STYLE</a></li>
+							
+						</ul>
+					</div>
+					<div class="headerCenter-center left">
+						<a href="#" class="headLogo"></a>
+					</div>
+					
+					<div class="headSeach left">
+						
+						<input type="text" class="input1 left" placeholder="帽子"/>
+						<a class="btn left" href="#"><span></span></a>
+						
+						<div class="go-cart left">
+							<a class="cart" href="#"></a>
+							<a id="num" href="#">0</a>
+							<!--购物车-->
+							<div class="partCart">
+								<span class="small-cart"></span>	
+								
+								<h3>您的购物车暂无商品</h3>
+							</div>
+						</div>	
+					</div>
+					
+					
+				</div>
+			</div>
+			<div id="wrap-headerBottom">
+				<div id="headerBottom">
+					<ul class="headerBottom-list">
+						<li><a href="#" class="li-a">新品到着</a></li>
+						<li><a href="#" class="li-a">品牌一览</a></li>
+						<li>
+							<a href="#" class="li-a">服饰 </a>
+							
+							<div class="two-nav">
+								
+								<div class="two-nav01 left">
+									<dl class="cLine dl1">
+										<dt>上装</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>棉衣</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>羽绒服</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>夹克</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>卫衣</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>大衣/风衣</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cLine">
+										<dt>下装</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>休闲裤</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>牛仔裤</dt>
+										<dd></dd>
+									</dl>
+								</div>
+								<!--二-->
+								<div class="two-nav01 left">
+									<dl class="cRray">
+										<dt>短裤</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cLine">
+										<dt>经典款型</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>圆领套头卫衣</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>学院风衬衫</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>街头风T恤</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cLine">
+										<dt>热门品牌</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>jokester</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>Genanx</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>ABSURD LOGIC</dt>
+										<dd></dd>
+									</dl>
+								</div>
+								
+								<!--三-->
+								<div class="two-nav03 left">
+									<dl class="cRray">
+										<dt>Life·After Life</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>VANS</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>EVISU</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>BOY LONDON</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>Furyanimals</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>Madness</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>open your mind</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>MYGESMART</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>into the rainbow</dt>
+										<dd></dd>
+									</dl>
+								</div>
+								
+								<div class="two-nav04 left ">
+									<dl>
+										<dt class="navImg"><a href="#"><img src="img/headImg/nav01.jpg"/></a></dt>
+										<dd class="navImg-a">IN季新品全面销售</dd>
+									</dl>
+								</div>
+								
+								
+								
+								
+							</div>
+							
+						</li>
+						<li>
+							<a href="#" class="li-a">鞋履 </a>
+						
+							<div class="two-nav">
+								
+								<div class="two-nav01 left">
+									<dl class="cLine dl1">
+										<dt>鞋履</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>休闲/运动鞋</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>靴子</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>时装鞋</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cLine">
+										<dt>热门款型</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>复古跑鞋</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>帆布鞋</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>雕花皮鞋</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>户外靴</dt>
+										<dd></dd>
+									</dl>
+								</div>
+								<!--二-->
+								<div class="two-nav01 left">
+									<dl class="cLine dl1">
+										<dt>热门品牌</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>FOSS</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>adidas Originals</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>DC</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>PUMA</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>VANS</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>New Balance</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>LACOSTE</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>Reebok</dt>
+										<dd></dd>
+									</dl>
+								</div>
+								
+								<!--三-->
+								<div class="two-nav03 left">
+									<dl class="cRray">
+										<dt>GAWS FOOT</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>Anthony Miles</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>converse</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>Onitsuka Tiger</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>vernon sabin</dt>
+										<dd></dd>
+									</dl>
+									
+								</div>
+								
+								<div class="two-nav04 left ">
+									<dl>
+										<dt class="navImg"><a href="#"><img src="img/headImg/navImg02.jpg"/></a></dt>
+										<dd class="navImg-a">人气鞋靴</dd>
+									</dl>
+								</div>
+								
+								
+								<!--<ul class="two-nav01">
+									<li class="cLine">上装</li>
+									<li class="cRray">棉衣</li>
+									<li>羽绒服</li>
+									<li class="cRed">夹克</li>
+									<li>卫衣</li>
+									<li>大衣/风衣</li>
+									<li>下装</li>
+									<li>休闲裤</li>
+									<li>牛仔裤</li>
+								</ul>-->
+								
+							</div>
+						</li>
+						<li>
+							<a href="#" class="li-a">包袋 </a>
+							
+							<div class="two-nav">
+								
+								<div class="two-nav01 left">
+									<dl class="cLine dl1">
+										<dt>包</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>双肩包</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>手拎包/单肩包</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>电脑包</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>钱包/卡包/手拿包</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>腰包</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cLine">
+										<dt>热门款型</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>帆布背包</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>拼色背包</dt>
+										<dd></dd>
+									</dl>
+								</div>
+								<!--二-->
+								<div class="two-nav01 left">
+									<dl class="cRray">
+										<dt>街头款单肩包</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>多口袋双肩包</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cLine">
+										<dt>热门品牌</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>ACROSS</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>Herschel Supply</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>LINSHI TASKS</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>SAFELAKE</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>Storm Stamps</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>4M</dt>
+										<dd></dd>
+									</dl>
+								</div>
+								
+								<!--三-->
+								<div class="two-nav03 left">
+									<dl class="cRray">
+										<dt>F5S</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>Filter017</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>RAWROW</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>Square Houlest</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>TEEN TEAM</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>MACROPUS</dt>
+										<dd></dd>
+									</dl>
+									
+								</div>
+								
+								<div class="two-nav04 left ">
+									<dl>
+										<dt class="navImg"><a href="#"><img src="img/headImg/nav03.jpg"/></a></dt>
+										<dd class="navImg-a">出街必备包袋集合</dd>
+									</dl>
+								</div>
+								
+								
+								<!--<ul class="two-nav01">
+									<li class="cLine">上装</li>
+									<li class="cRray">棉衣</li>
+									<li>羽绒服</li>
+									<li class="cRed">夹克</li>
+									<li>卫衣</li>
+									<li>大衣/风衣</li>
+									<li>下装</li>
+									<li>休闲裤</li>
+									<li>牛仔裤</li>
+								</ul>-->
+								
+							</div>
+						
+						</li>
+						<li>
+							
+							<a href="#" class="li-a">配饰 · 其他 </a>
+							
+							<div class="two-nav">
+								
+								<div class="two-nav01 left">
+									<dl class="cLine dl1">
+										<dt>服配</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>太阳镜/眼镜</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>帽子</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>袜子</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>手表</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cLine">
+										<dt>首饰</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>戒指</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>耳钉</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>手链</dt>
+										<dd></dd>
+									</dl>
+								</div>
+								<!--二-->
+								<div class="two-nav01 left">
+									<dl class="cRray">
+										<dt>项链</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cLine">
+										<dt>配饰</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>皮带/腰带</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>胸针/胸章</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>手机链/钥匙扣</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cLine">
+										<dt>热门品牌</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>Emporio Armani</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>Daniel Wellington</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>ZERONE</dt>
+										<dd></dd>
+									</dl>
+								</div>
+								
+								<!--三-->
+								<div class="two-nav03 left">
+									<dl class="cRray">
+										<dt>WUSSA</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>鼎骏手表专营店</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>CAVERS</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>subcrew eyes wear</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>Burqa Ange 博嘉</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>VVQI我趣</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>Pineal Body</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRed">
+										<dt>GAWS CAP</dt>
+										<dd></dd>
+									</dl>
+									<dl class="cRray">
+										<dt>惊鸿阁</dt>
+										<dd></dd>
+									</dl>
+									
+								</div>
+								
+								<div class="two-nav04 left ">
+									<dl>
+										<dt class="navImg"><a href="#"><img src="img/headImg/nav04.jpg"/></a></dt>
+										<dd class="navImg-a">热门小物优选</dd>
+									</dl>
+								</div>
+								
+								
+								
+								
+							</div>
+							
+						</li>
+						<li class="list-liNew">
+							<a href="#" class="li-a">领券中心</a>
+							<i></i>
+						</li>
+						<li><a href="#" class="li-a">逛 </a></li>
+						<li><a href="#" class="li-a">SALE</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+			</div>
+			
+			
+			
+			<div id="wrap-content">
+				
+<div id="content">
+	<!--轮播-->
+	<div class="Carousel">
+		<ul class="Carousel-list1">
+			<!--<li><a href="#"><img src="img/Carousel/bigImg01.jpg"/></a></li>
+			<li><a href="#"><img src="img/Carousel/bigImg02.jpg"/></a></li>
+			<li><a href="#"><img src="img/Carousel/bigImg03.jpg"/></a></li>
+			<li><a href="#"><img src="img/Carousel/bigImg04.jpg"/></a></li>
+			<li><a href="#"><img src="img/Carousel/bigImg05.jpg"/></a></li>
+			<li><a href="#"><img src="img/Carousel/bigImg06.jpg"/></a></li>
+			<li><a href="#"><img src="img/Carousel/bigImg07.jpg"/></a></li>
+			<li><a href="#"><img src="img/Carousel/bigImg08.jpg"/></a></li>-->
+		</ul>
+		
+		<ul class="Carousel-list2">
+			<!--<li class="Carousel-li1 active"><img src="img/Carousel/smallImg01.jpg"/></li>
+			<li><img src="img/Carousel/smallImg02.jpg"/></li>
+			<li><img src="img/Carousel/smallImg03.jpg"/></li>
+			<li><img src="img/Carousel/smallImg04.jpg"/></li>
+			<li><img src="img/Carousel/smallImg05.jpg"/></li>
+			<li><img src="img/Carousel/smallImg06.jpg"/></li>
+			<li><img src="img/Carousel/smallImg07.jpg"/></li>
+			<li class="Carousel-li8"><img src="img/Carousel/smallImg08.jpg"/></li>-->
+		</ul>
+		
+		<div class="prev">
+			<img src="img/Carousel/prev.jpg"/>
+		</div>
+		<div class="next">
+			<img src="img/Carousel/next.jpg"/>
+		</div>
+		
+	</div>
+	<!--人气品单标题-->
+	<div class="buzzHead">
+		<div class="buzzHeadFont">
+			人气单品
+		</div>
+	</div>
+	<!--人气品单内容-->
+	<div class="buzzContent">
+		<!--<a href="#"><img src="img/content/buzz1.jpg" /></a>
+		<a href="#"><img src="img/content/buzz2.jpg" /></a>
+		<a href="#"><img src="img/content/buzz3.jpg" /></a>
+		<a href="#"><img src="img/content/buzz4.jpg" /></a>
+		<a href="#" class="buzz-a"><img src="img/content/buzz5.jpg" /></a>
+		<a href="#"><img src="img/content/buzz6.jpg" /></a>
+		<a href="#"><img src="img/content/buzz7.jpg" /></a>
+		<a href="#"><img src="img/content/buzz8.jpg" /></a>
+		<a href="#"><img src="img/content/buzz9.jpg" /></a>
+		<a href="#" class="buzz-a"><img src="img/content/buzz10.jpg" /></a>
+		<a href="#"><img src="img/content/buzz11.jpg" /></a>-->	
+	</div>
+	<!--优选品牌-->
+	<div class="buzzHead">
+		<div class="buzzHeadFont">
+			优选品牌
+		</div>
+	</div>
+	<!--优选品牌内容-->
+	<div class="preferenceContent">
+		<ul class="preferenceContent-list">
+			<li>
+				<a href="#" class="preferenceContent-li1"><img src="img/content/preference1.jpg"/></a>
+				<a href="#"><img src="img/content/preference2.jpg"/></a>
+				<a href="#"><img src="img/content/preference3.jpg"/></a>
+			</li>
+			
+			<li>
+				<a href="#" class="preferenceContent-li1"><img src="img/content/preference4.jpg"/></a>
+				<a href="#"><img src="img/content/preference5.jpg"/></a>
+				<a href="#"><img src="img/content/preference6.jpg"/></a>
+			</li>
+			
+			<li>
+				<a href="#" class="preferenceContent-li1"><img src="img/content/preference7.jpg"/></a>
+				<a href="#"><img src="img/content/preference8.jpg"/></a>
+				<a href="#"><img src="img/content/preference9.jpg"/></a>
+			</li>
+				
+		</ul>
+		
+		<div class="prev1">
+			<img src="img/Carousel/prev.jpg"/>
+		</div>
+		<div class="next1">
+			<img src="img/Carousel/next.jpg"/>
+		</div>
+		<!--各种品牌logo-->
+		<div class="brandLogo">
+			<ul class="brandLogo-list1" style="display: none;">
+				<!--<a href="#"><img src="img/content/brandLogo1.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo2.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo3.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo4.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo5.jpg"/></a>
+				<a href="#" class="brandLogo-a"><img src="img/content/brandLogo5.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo6.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo7.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo8.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo9.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo10.jpg"/></a>
+				<a href="#" class="brandLogo-a"><img src="img/content/brandLogo11.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo12.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo13.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo14.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo15.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo16.jpg"/></a>
+				<a href="#" class="brandLogo-a"><img src="img/content/brandLogo16.jpg"/></a>-->
+			</ul>
+			<ul class="brandLogo-list2" style="display: block;">
+				<!--<a href="#"><img src="img/content/brandLogo01.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo02.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo03.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo04.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo05.jpg"/></a>
+				<a href="#" class="brandLogo-a"><img src="img/content/brandLogo05.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo06.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo07.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo08.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo09.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo010.jpg"/></a>
+				<a href="#" class="brandLogo-a"><img src="img/content/brandLogo011.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo012.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo013.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo014.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo015.jpg"/></a>
+				<a href="#"><img src="img/content/brandLogo016.jpg"/></a>
+				<a href="#" class="brandLogo-a"><img src="img/content/brandLogo16.jpg"/></a>-->
+			</ul>
+			
+			<div class="icon-line">
+				<div style="background: #ffffff; height: 100%; width: 100%;">
+					<div style="background: url(img/content/logo-brand-line.png) no-repeat left 45px top 10px; height: 100%; width: 100%;">
+						<div class="prev2">
+					
+						</div>
+						
+						<div class="next2">
+							
+						</div>
+					</div>	
+				</div>	
+			</div>
+			
+			
+			<div class="more">
+				<a href="#">MORE&gt;</a>
+			</div>
+		</div>
+	</div>
+	<!--最新速报-->
+	<div class="buzzHead">
+		<div class="buzzHeadFont">
+			最新速报
+		</div>
+	</div>
+	<!--最新速报内容-->
+	<div class="newContent">
+		
+		<ul class="newContent-list">
+			<!--<a href="#" class="newContent-a1"><img src="img/content/newContent1.jpg"/></a>
+			<a href="#"><img src="img/content/newContent2.jpg"/></a>
+			<a href="#"><img src="img/content/newContent3.jpg"/></a>
+			<a href="#"><img src="img/content/newContent4.jpg"/></a>
+			
+			<a href="#" class="newContent-a4"><img src="img/content/newContent6.jpg"/></a>
+			<a href="#" class="newContent-a4"><img src="img/content/newContent7.jpg"/></a>
+			<a href="#" class="newContent-a4"><img src="img/content/newContent8.jpg"/></a>-->
+		</ul>
+		
+		<div  class="newContent-a8">
+			
+		</div>
+		
+		<div class="newContent-a9">
+			
+		</div>
+	</div>
+	<!--潮流上装-->
+	<div class="buzzHead">
+		<div class="buzzHeadFont">
+			潮流上装
+		</div>
+	</div>
+	<!--潮流上装内容-->
+	<div class="jacket">
+		<ul class="jacket-list"  style="position: relative;">
+			<!--<li><a href="#"><img src="img/content/jacket1.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket2.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket3.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket4.jpg"/></a></li>
+			<li class="jacket-right"><a href="#"><img src="img/content/jacket5.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket5.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket6.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket7.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket8.jpg"/></a></li>
+			<li class="jacket-right"><a href="#"><img src="img/content/jacket9.jpg"/></a></li>
+			<li class="jacket-bottom"><a href="#"><img src="img/content/jacket10.jpg"/></a></li>
+			<li class="jacket-bottom"><a href="#"><img src="img/content/jacket11.jpg"/></a></li>
+			<li class="jacket-bottom"><a href="#"><img src="img/content/jacket12.jpg"/></a></li>
+			<li class="jacket-bottom"><a href="#"><img src="img/content/jacket13.jpg"/></a></li>
+			<li class="jacket-right"><a href="#"><img src="img/content/jacket14.jpg"/></a></li>
+			-->
+			<div class="jacket-text">
+				<ul class="jacket-text-list">
+					<li><a href="#">棉衣</a></li>
+					<li><a href="#">羽绒服</a></li>
+					<li><a href="#">大衣/风衣</a></li>
+					<li><a href="#">夹克</a></li>
+					<li><a href="#">卫衣</a></li>
+					<li><a href="#">毛衣/针织</a></li>
+					<li><a href="#">简约有型</a></li>
+					<li><a href="#">运动先锋</a></li>
+					<li><a href="#">街头原宿</a></li>
+					<li><a href="#">英伦学院</a></li>
+				</ul>
+			</div>
+		</ul>
+	</div>
+	<!--潮流下装-->
+	<div class="buzzHead">
+		<div class="buzzHeadFont">
+			潮流下装
+		</div>
+	</div>
+	<!--潮流下装内容-->
+	<div class="jacket">
+		<ul class="jacket-list"  style="position: relative;">
+			<!--<li><a href="#"><img src="img/content/jacket1.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket2.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket3.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket4.jpg"/></a></li>
+			<li class="jacket-right"><a href="#"><img src="img/content/jacket5.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket5.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket6.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket7.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket8.jpg"/></a></li>
+			<li class="jacket-right"><a href="#"><img src="img/content/jacket9.jpg"/></a></li>
+			<li class="jacket-bottom"><a href="#"><img src="img/content/jacket10.jpg"/></a></li>
+			<li class="jacket-bottom"><a href="#"><img src="img/content/jacket11.jpg"/></a></li>
+			<li class="jacket-bottom"><a href="#"><img src="img/content/jacket12.jpg"/></a></li>
+			<li class="jacket-bottom"><a href="#"><img src="img/content/jacket13.jpg"/></a></li>
+			<li class="jacket-right"><a href="#"><img src="img/content/jacket14.jpg"/></a></li>
+			-->
+			<div class="jacket-text">
+				<ul class="jacket-text-list">
+					<li><a href="#">休闲裤</a></li>
+					<li><a href="#">牛仔裤</a></li>
+					<li><a href="#">运动裤</a></li>
+					<li><a href="#">短裤</a></li>
+					<li><a href="#">九分裤</a></li>
+					<li><a href="#">束口裤</a></li>
+					<li><a href="#">工装裤</a></li>
+					<li><a href="#">直筒裤</a></li>
+					<li><a href="#">紧身裤</a></li>
+					<li><a href="#">哈伦裤</a></li>
+				</ul>
+			</div>
+		</ul>
+	</div>
+	<!--时尚鞋履-->
+	<div class="buzzHead">
+		<div class="buzzHeadFont">
+			时尚鞋履
+		</div>
+	</div>
+	<!--时尚鞋履内容-->
+	<div class="jacket">
+		<ul class="jacket-list"  style="position: relative;">
+			<!--<li><a href="#"><img src="img/content/jacket1.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket2.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket3.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket4.jpg"/></a></li>
+			<li class="jacket-right"><a href="#"><img src="img/content/jacket5.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket5.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket6.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket7.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket8.jpg"/></a></li>
+			<li class="jacket-right"><a href="#"><img src="img/content/jacket9.jpg"/></a></li>
+			<li class="jacket-bottom"><a href="#"><img src="img/content/jacket10.jpg"/></a></li>
+			<li class="jacket-bottom"><a href="#"><img src="img/content/jacket11.jpg"/></a></li>
+			<li class="jacket-bottom"><a href="#"><img src="img/content/jacket12.jpg"/></a></li>
+			<li class="jacket-bottom"><a href="#"><img src="img/content/jacket13.jpg"/></a></li>
+			<li class="jacket-right"><a href="#"><img src="img/content/jacket14.jpg"/></a></li>
+			-->
+			<div class="jacket-text">
+				<ul class="jacket-text-list">
+					<li><a href="#">休闲鞋</a></li>
+					<li><a href="#">复古跑鞋</a></li>
+					<li><a href="#">时尚鞋</a></li>
+					<li><a href="#">凉鞋</a></li>
+					<li><a href="#">板鞋</a></li>
+					<li><a href="#">帆布鞋</a></li>
+					<li><a href="#">FOSS</a></li>
+					<li><a href="#">DC</a></li>
+					<li><a href="#">PUMA</a></li>
+					<li><a href="#">VANS</a></li>
+					<li><a href="#">lvyboi</a></li>
+					<li><a href="#">converse</a></li>
+				</ul>
+			</div>
+		</ul>
+	</div>
+	<!--潮人配饰-->
+	<div class="buzzHead">
+		<div class="buzzHeadFont">
+			潮人配饰
+		</div>
+	</div>
+	<!--潮人配饰内容-->
+	<div class="jacket">
+		<ul class="jacket-list"  style="position: relative;">
+			<!--<li><a href="#"><img src="img/content/jacket1.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket2.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket3.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket4.jpg"/></a></li>
+			<li class="jacket-right"><a href="#"><img src="img/content/jacket5.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket5.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket6.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket7.jpg"/></a></li>
+			<li><a href="#"><img src="img/content/jacket8.jpg"/></a></li>
+			<li class="jacket-right"><a href="#"><img src="img/content/jacket9.jpg"/></a></li>
+			<li class="jacket-bottom"><a href="#"><img src="img/content/jacket10.jpg"/></a></li>
+			<li class="jacket-bottom"><a href="#"><img src="img/content/jacket11.jpg"/></a></li>
+			<li class="jacket-bottom"><a href="#"><img src="img/content/jacket12.jpg"/></a></li>
+			<li class="jacket-bottom"><a href="#"><img src="img/content/jacket13.jpg"/></a></li>
+			<li class="jacket-right"><a href="#"><img src="img/content/jacket14.jpg"/></a></li>
+			-->
+			<div class="jacket-text">
+				<ul class="jacket-text-list">
+					<li><a href="#">双肩包</a></li>
+					<li><a href="#">单肩包</a></li>
+					<li><a href="#">帽子</a></li>
+					<li><a href="#">太阳镜/眼镜</a></li>
+					<li><a href="#">首饰</a></li>
+					<li><a href="#">配饰</a></li>
+					<li><a href="#">手表</a></li>
+					<li><a href="#">美妆</a></li>
+					<li><a href="#">MACROPUS</a></li>
+					<li><a href="#">DICKIES CAP</a></li>
+					<li><a href="#">Natkiel</a></li>
+					<li><a href="#">inmix</a></li>
+				</ul>
+			</div>
+		</ul>
+	</div>
+	<!--最新上架-->
+	<div class="buzzHead">
+		<div class="buzzHeadFont">
+			最新上架
+		</div>
+	</div>
+	<!--最新上架内容-->
+	<div class="newGoods">
+		
+	</div>
+	
+	<div style="height: 65px;width: 1150px; overflow: hidden;">
+		<div style="width: 120px; height: 36px; background: #000;margin:0px auto; ">
+			<a href="#" style="color: white; text-align: center;line-height: 36px; display: block;">查看更多</a>
+		</div>
+	</div>
+	
+</div>
+			</div>
+			
+			<div id="wrap-exchange">
+				<div id="exchange">
+					<dl class="exchange-dl">
+						<dt>
+							<p class="exchange-p">有货SERVICES</p>
+							
+							<div class="exchange-div">
+								<img src="img/content/ex1.jpg" class="left" style="margin-right: 12px;"/>
+								<img src="img/content/ex1.jpg" class="left" style="margin-right: 12px;"/>
+								<img src="img/content/ex1.jpg" class="left"/>
+							</div>
+						</dt>
+						<dd>
+							<span class="cur"></span>
+						</dd>
+					</dl>
+					<dl class="exchange-dl exchange-dlCenter">
+						<dt>
+							<p class="exchange-p">意见反馈</p>
+							<div class="exchange-div">
+								<form class="form1" style="display: none;">
+									你喜欢有货的新版本吗？<br />
+									<input type="radio" value="" style="margin-top: 12px;"/> 非常喜欢
+									<input type="radio" value="" style="margin-left: 100px;"/> 喜欢	<br />
+									<input type="radio" value="" style="margin-top: 12px;"/> 一般般	
+									<input type="radio" value="" style="margin-left: 112px;"/> 不喜欢	<br />
+									<input type="radio" value="" style="margin-top: 12px;"/> 非常不喜欢<br />
+									<input type="button" value="提交" class="exchange-btn"/>
+								</form>
+								<form class="form2" style="display: none;">
+									您可以方便的找到想查看的内容吗？<br />
+									<input type="radio" value="" style="margin-top: 12px;"/> 非常方便 
+									<input type="radio" value="" style="margin-left: 100px;"/> 方便 	<br />
+									<input type="radio" value="" style="margin-top: 12px;"/> 一般般	
+									<input type="radio" value="" style="margin-left: 112px;"/> 不方便 	<br />
+									<input type="radio" value="" style="margin-top: 12px;"/> 非常不方便 <br />
+									<input type="button" value="提交" class="exchange-btn"/>
+								</form>
+								<form class="form3">
+									您对新版还有哪些意见或建议？<br />
+									<textarea style="width: 324px; height: 68px; margin-top: 12px;"></textarea>
+									<input type="button" value="提交" class="exchange-btn"/>
+								</form>
+							</div>
+						</dt>
+						<dd class="exchange-dd">
+							<span class="cur"></span>
+							<span></span>
+							<span></span>
+						</dd>
+					</dl>
+					<dl class="exchange-dl">
+						<dt>	
+							<p class="exchange-p"> 更多 YOHO!产品</p>
+							
+							<div class="exchange-div">
+								<a href="#"><img src="img/content/pyoho.png" style="margin-right: 8px;"/></a>
+								<a href="#"><img src="img/content/pmars.png" style="margin-right: 8px;"/></a>
+								<a href="#"><img src="img/content/pshow.png"/></a>
+							</div>
+						</dt>
+						
+						<dd>
+							<span class="cur"></span>
+						</dd>
+					</dl>
+					
+				</div>
+				
+				
+			</div>
+			
+			<div id="toTop"></div>
+			
+			<iframe MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no
+			src="footer.html" height=296 width=100%></iframe>
+			
+		</div>
+	</body>
+	
+</html>
+
+

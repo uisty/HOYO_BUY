@@ -1,0 +1,65 @@
+#main { height: 683px; width: 100%;}
+.topImg { height: 45px; width: 100%; }
+.center-ul { height: 48px; width: 1150px; margin: 0 auto;}
+.center-main { height: 589px; width: 1150px; margin: 0 auto; }
+.center-ul li { float:  left;}
+.center-ul li a { line-height: 48px; color: #66667d;}
+.center-main { }
+.main-list1 { height: 560px; width: 420px; overflow: hidden;}
+.main-list1 li { display: none;}
+.main-list1 li.active { display: block;}
+.main-list1 li img { height: 560px; width: 420px;}
+.main-list2 { width: 75px; height: 560px; padding-left: 3px;}
+
+.main-right { height: 560px; width: 465px;margin-left: 28px;}
+
+.mainRight-top { height: 170px; width: 465px;}
+p.tTitle { line-height: 28px; color: #000;font-size: 18px;}
+p { line-height: 28px; color: #999;}
+.tA { color: #7d6666;}
+.Tspan2 {font-size: 18px; color: #000;}
+.Tspan1 { text-decoration: line-through;}
+.tImg { margin: 8px 0;}
+.Tspan3 { width: 60px; height: 16px; line-height: 16px; display: inline-block;
+	text-align: center; background: #999; margin:0 10px 6px 0;}
+
+
+.mainRight-bottom { height: 255px; width: 465px;margin-top: 20px;border-top: 1px #eaeceb solid;
+	padding-top: 15px;}
+.selectColor { line-height: 40px;height: 40px;display: inline-block;
+	float: left;}
+.size { height: 22px; width: 38px; display: inline-block; border: 1px solid #f5f6f5;
+	margin-left: 5px;text-align: center;line-height: 22px; background: white;
+	cursor: pointer;}
+.sizeHlpe { height: 22px; width: 54px; background: #f8f8f8; border: 1px solid #f5f6f5;
+	display: inline-block;text-align: center;line-height: 22px;}
+.size-ul1 li { margin-top: 15px;}
+.count { width: 55px; height: 25px;display: inline-block;text-align: center;line-height: 25px;
+	background: #ebebe4; position: relative;}
+.add,.sub { position: absolute; left: 40px; height: 11px; width: 14px; display: block;
+	cursor: pointer;}
+.add { top: -4px;}
+.sub { top: 8px;}
+.cartSum { text-align: center;}
+.goCart { height: 48px; width: 197px; background: #e92601; display: inline-block;
+	text-align: center; line-height: 48px; font-weight: 900; color: white;
+	cursor: pointer;}
+.gotoCart { height: 48px; width: 197px; background: #e92601; display: inline-block;
+	text-align: center; line-height: 48px; font-weight: 900; color: white;
+	cursor: pointer;}
+.Collection { 
+	 height: 48px; width: 126px; background: #fff; display: inline-block;
+	text-align: center; line-height: 48px; font-weight: 900;
+	cursor: pointer; margin-left: 12px; border: 1px solid #ccc;
+}
+.share1,.share2,.share3,.share4,.share5,.share6,.share7 {
+	display: inline-block; width: 16px; height: 16px; margin-right: 5px;
+	background: red;
+}
+.share1 { background: url(../img/Description/sprite.share.png) left 0 top 0;}
+.share3 { background: url(../img/Description/sprite.share.png) left -18px top 0;}
+.share5 { background: url(../img/Description/sprite.share.png) left -36px top 0;}
+.share6 { background: url(../img/Description/sprite.share.png) left 0 top -18px;}
+.share4 { background: url(../img/Description/sprite.share.png) left -18px top -18px;}
+.share7 { background: url(../img/Description/sprite.share.png) left -36px top -18px;}
+.share2 { background: url(../img/Description/sprite.share.png) left 0 top -36px;}

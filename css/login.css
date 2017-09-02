@@ -1,0 +1,65 @@
+/* header部分*/
+
+#header { height: 66px; width: 100%; border-bottom: 2px solid #000;}
+.logo { margin: 12px 0 0 188px; height: 40px; width: 171px; float: left;}
+ul.header-tool { float: right;margin-right: 188px;}
+ul.header-tool li { float: left; line-height: 66px;}
+ul.header-tool li a { color: #000;padding: 0 10px;}
+li.tool-li {position: relative;}
+ul.header-tool li.tool-li a { width: 50px; display: block;text-align: center;
+ height: 30px; line-height: 30px; margin-top: 20px;}
+
+ul.header-tool li.tool-li2 { padding: 0 10px;}
+ul.header-tool li.tool-li2 a { padding: 0;}
+.tool-a { position: absolute; top: 51px;left: 0; height: 60px;
+	z-index: 99;}
+.tool-a {display: none;background: #ccc;}
+
+
+
+li.tool-li	div.tool-a a { line-height: 30px; float: left;margin: 0 auto;
+	border-bottom: solid 1px #dfdfdf;height: 30px;}
+	
+
+/*中间内容部分*/
+#wrap-centent { height: 654px; width: 100%;}
+#centent { height: 654px; width: 1150px; margin: 0 auto; overflow: hidden;}
+.passport { margin: 107px 0; float: left; width: 575px;
+ height: auto; border-right: 1px #dfdfdf solid;}
+
+.login-page { width: 480px; height: 486px; float: left;
+	margin-top: 108px; padding-left: 85px;}
+
+.login-page1 {
+	width:450px; height: 380px; background: white; margin-top: 70px;
+}
+.hydl { margin-right: 88px; font-size: 18px; color: #000;}
+/*.xllb-i { display: inline-block; width: 17px; height: 9px;
+	background: url(../img/login.png) no-repeat; 
+	background-position: left -538px top -29px;}*/
+.xllb { position: relative;}
+ul.xllb-ul { border: solid 1px #000; position: absolute;top: 20px; left: 0px; padding-left: 10px;
+	width: 110px; border-radius: 5px; display: none; background: white;}
+ul.xllb-ul li { cursor:pointer; font-size: 16px; font-weight:normal;}
+.id,.pwd { width: 268px; height: 45px; border: none; border: 1px solid #dbdbdb;
+	margin-top: 24px;}
+.icon-i1 { height: 12px; width: 12px; display: inline-block; margin-left: 15px;
+	margin-right: 6px;
+	background: url(../img/login.png) left -523px top -30px no-repeat;
+}
+.icon-i2 { height: 12px; width: 12px; display: inline-block; margin-left: 15px;
+	margin-right: 6px;
+	background: url(../img/login.png) left -507px top -30px no-repeat;
+}
+.loginBtn { height: 45px; width: 268px; margin-top: 24px; text-align: center;
+	line-height: 45px; background: #ff1901; border: none; font-size: 18px; color: white;}
+.li-i i { height: 31px; width: 31px; display: inline-block;margin-right: 12px;
+	margin-top: 25px;}
+i.li-i1 { background: url(../img/login.png) left -497px top -58px no-repeat;}
+i.li-i2 { background: url(../img/login.png) left -464px top -58px no-repeat;}
+i.li-i3 { background: url(../img/login.png) left -529px top -58px no-repeat;}
+i.li-i4 { background: url(../img/login.png) left -423px top -90px no-repeat;}
+i.li-i5 { background: url(../img/login.png) left -391px top -90px no-repeat;}
+i.li-i6 { background: url(../img/login.png) left -433px top -58px no-repeat;}
+
+
